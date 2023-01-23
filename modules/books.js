@@ -1,4 +1,4 @@
-import {Book} from './book.js';
+import Book from './book.js';
 import * as bookElements from './bookElements.js';
 
 class Books {
@@ -7,7 +7,7 @@ class Books {
   }
 
   // retrieve from local storage
-  
+
   retrieve = () => {
     const retrievedBooks = JSON.parse(localStorage.getItem('books'));
     if (retrievedBooks === null) {
@@ -72,4 +72,5 @@ class Books {
   }
 }
 
-export const bookList = new Books();
+const bookList = new Books();
+export default bookList;
