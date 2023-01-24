@@ -20,4 +20,4 @@ bookElements.booksContainer.addEventListener('click', (e) => {
   bookList.remove(e.target);
 });
 
-bookElements.dateTime.innerHTML = DateTime.now();
+bookElements.dateTime.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_FULL);
