@@ -31,7 +31,11 @@
 
 # 📖 **Awesome book ES6** <a name="about-project"></a>
 
-**Awesome book es6** is a web application about books management implemented using ES6
+Awesome Book is a JavaScript-based book management app that simplifies book tracking. <br>
+It lets users add, edit, delete books, and display the list of existing books. <br>
+It offers a responsive and user-friendly ui.
+
+![Screenshot from 2023-04-27 01-41-40](https://user-images.githubusercontent.com/10439283/234718490-05a58354-dfd0-4372-a323-3f0892190b52.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -44,6 +48,9 @@
 
 ### Key Features <a name="key-features"></a>
 
+- **Ability to add new book**
+- **Ability to remove a book**
+- **Ability to display list of books**
 - **Use of ES6 Modules**
 - **Use of Luxon library**
 
@@ -76,8 +83,10 @@ Clone this repository to your desired folder:
 
 Example commands:
 
+```sh
   cd my-folder
   git clone https://github.com/rica213/awesome-book-es6.git
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
